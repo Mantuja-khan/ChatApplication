@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+        "build": "echo 'No build step needed'",
     "generate-vapid": "node src/scripts/generate-vapid.js"
   },
   "dependencies": {
